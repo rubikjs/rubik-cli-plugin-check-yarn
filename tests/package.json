@@ -1,0 +1,14 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "rubik": "rubik"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "rubik-cli-plugin-check-yarn": "file:../"
+  }
+}

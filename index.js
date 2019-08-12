@@ -1,4 +1,4 @@
-module.exports = (Command, options) => {
+module.exports = ({ Command }, options) => {
   class SubCommand extends Command {
     async run () {
       if (process.env.npm_execpath.indexOf('yarn') === -1) {
